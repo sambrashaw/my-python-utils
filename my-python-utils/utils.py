@@ -16,3 +16,16 @@ def readDatabase( file ):
         for record in f.readlines():
             recordList.append( record.replace( "\n", "" ).split( "," ) )
     return recordList
+
+def cls():
+    from os import system
+    system("cls")
+
+def firstOptionInput():
+    print("\n" + "*"*50)
+    print("\n[A] ")
+    print("\n[B] ")
+    print("\n[C] ")
+    print("\n[D] ")
+    print("\n" + "*"*50 + "\n")
+    optioninput = input(">> ")
