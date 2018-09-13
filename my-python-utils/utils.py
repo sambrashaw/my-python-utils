@@ -17,10 +17,12 @@ def readDatabase( file ):
             recordList.append( record.replace( "\n", "" ).split( "," ) )
     return recordList
 
+# Clears the console to make
 def cls():
     from os import system
     system("cls")
 
+# Sets up the general UI for the console and adds an input field to take user input.
 def firstOptionInput():
     print("\n" + "*"*50)
     print("\n[A] ")
