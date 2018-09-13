@@ -7,6 +7,6 @@ The writeDatabase() function constructs the database.txt file for long term data
 
 The format:
 
-  Record 1: Value1,Value2,Value3,Value4,Value5
+    Record 1: Value1,Value2,Value3,Value4,Value5
 
-  Record 2: Value1,Value2,Value3,Value4,Value5
+    Record 2: Value1,Value2,Value3,Value4,Value5
